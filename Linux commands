@@ -1,0 +1,15 @@
+Commands for Linux - Ubuntu
+ls - List
+cd - Change Directory
+pwd - Showing current path location
+find/locate - Searching for files in the filesystem
+sudo - Super user do (run commands with root privileges)
+
+Text editors -
+vim/vi 
+nano
+Emacs
+
+Networking
+ifconfig - Showing your ip address/subnet
+nmtui - GUI for changing ip addresses
