@@ -9,9 +9,11 @@ sudo - Super user do (run commands with root privileges)
 ps aux - Showing process running
 kill - Command to kill processes by PID (Proccess ID)
 top - Showing daemons and processes that are currently active
+clear - Clearing the shell
+
 
 SSH commands + Key
-rsa-keygen - to create an ssh key
+ssh-keygen - Creating a new ssh key
 ssh username@<hostname/ip> - Command to access remote machines
 
 Text editors -
@@ -21,7 +23,12 @@ Emacs
 
 Networking
 ifconfig - Showing your ip address/subnet
+ip addr/address add/del - Adding or deleting ip address to the current network
 nmtui - GUI for changing ip addresses
 nmcli con show - Showing the type and device for networks
 nmcli dev show
 nmcli con mod - changing the name for ip address
+netstat
+dig
+
+
