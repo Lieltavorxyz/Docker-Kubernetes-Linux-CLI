@@ -3,7 +3,16 @@ ls - List
 cd - Change Directory
 pwd - Showing current path location
 find/locate - Searching for files in the filesystem
+cp - Copy files
+mv - Moving files
 sudo - Super user do (run commands with root privileges)
+ps aux - Showing process running
+kill - Command to kill processes by PID (Proccess ID)
+top - Showing daemons and processes that are currently active
+
+SSH commands + Key
+rsa-keygen - to create an ssh key
+ssh username@<hostname/ip> - Command to access remote machines
 
 Text editors -
 vim/vi 
@@ -13,3 +22,6 @@ Emacs
 Networking
 ifconfig - Showing your ip address/subnet
 nmtui - GUI for changing ip addresses
+nmcli con show - Showing the type and device for networks
+nmcli dev show
+nmcli con mod - changing the name for ip address
