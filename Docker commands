@@ -1,0 +1,21 @@
+Common commands to manage docker images/containers :
+
+docker run - Run a command in a container
+docker build - Building the image from the Docker file
+docker network - Setting up a network to run multiple containers sharing the same network
+docker service - Manage docker services
+docker volume - Manage docker volumes
+docker cp - Allow you to inside path from local to inside the container
+docker create - 
+docker diff <containername> - Inspect changes to files or directories on a container's filesystem
+docker exec -it <containername> - Allow you to execute commands inside the container, or even connect to the container
+docker inspect <containername> - Watch logs inside the container
+docker kill <containername> - Allow you to kill container usually needs to be stopped before
+docker logs <containername> - Showing container logs
+docker restart <containername> - Restarting containers
+docker stop <containername> - Stopping containers
+docker start <containername> - Starting containers
+docker tag <containername> - Tagging a word to find/search for containers
+docker rm <containername> - Removing running containers
+docker top <containername> - Showing the process usage inside the containers
+docker ps - Showing running containers
