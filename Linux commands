@@ -1,5 +1,6 @@
 Commands for Linux - Ubuntu
 ls - List
+echo - Printing strings in the terminal.
 cd - Change Directory
 pwd - Showing current path location
 find/locate - Searching for files in the filesystem
@@ -10,11 +11,20 @@ ps aux - Showing process running
 kill - Command to kill processes by PID (Proccess ID)
 top - Showing daemons and processes that are currently active
 clear - Clearing the shell
+history - Showing the history of your commands
+grep - Catching a word, number any string you're looking for in services, files and more.
+touch - Creating a file (any file you want just make sure to <filename.<anyformat>> - example - app.py, home.html etc)
+mkdir - Creating a folder
+rm - Remove files, folder and basically everything.
+du - Getting the file size
+
 
 
 SSH commands + Key
-ssh-keygen - Creating a new ssh key
+ssh-keygen -t rsa- Creating a new ssh key
 ssh username@<hostname/ip> - Command to access remote machines
+ssh-copy-id hostname_or_IP - Copying your local ssh key to a remote ssh client
+
 
 Text editors -
 vim/vi 
