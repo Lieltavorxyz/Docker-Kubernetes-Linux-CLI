@@ -18,7 +18,11 @@ mkdir - Creating a folder
 rm - Remove files, folder and basically everything.
 du - Getting the file size
 
-
+User management:
+sudo useradd <username>
+sudo passwd <username>
+sudo useradd -m <username>
+su <username>
 
 SSH commands + Key
 ssh-keygen -t rsa- Creating a new ssh key
